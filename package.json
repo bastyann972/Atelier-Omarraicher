@@ -1,0 +1,22 @@
+{
+  "name": "atelier-omarraicher",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "node-dev index --clear --notify=false"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "node-dev": "^8.0.0"
+  }
+}
